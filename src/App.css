@@ -26,3 +26,28 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.game-box {
+  text-align: center;
+}
+
+.Board {
+  display: flex;
+  font-size: 0;
+  flex-wrap: wrap;
+  margin: -10px 0 0 -10px;
+}
+
+.cell{
+  display: inline-block;
+    border: 2px solid black;
+    margin:10px 0 0 2%;
+    flex-grow: 1;
+    height: 15em;
+    width: calc(100% * (1/4) - 10px - 1px) ;
+}
+
+img {
+  height: 15em;
+
+}
